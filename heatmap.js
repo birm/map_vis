@@ -27,7 +27,7 @@ d3.csv("data.csv").then(data=>{
   console.log(data.length)
   var baseLayer = L.tileLayer(
     'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-      attribution: '...',
+      attribution: 'OSM',
       maxZoom: 18
     }
   );
